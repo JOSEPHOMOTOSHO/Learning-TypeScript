@@ -7,10 +7,3 @@
  * a way to get around the above statement is to do e.g "tsc nameOfTypeScriptFile.ts --w"this commands watches and run your code each time you save
  *
  *  */
-var name_ = "china";
-console.log(name_);
-var input = document.querySelectorAll("input");
-console.log(input);
-input.forEach(function (input) {
-    console.log(input);
-});
