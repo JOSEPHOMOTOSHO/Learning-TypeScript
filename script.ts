@@ -17,8 +17,8 @@ let isTall = false
 // age = "ma"
 
 
-let circ = (diameter: number) => {
+let circ = (diameter: number) => {//declare parameter type by doing parameter:type 
     return diameter * Math.PI
 }
 
-console.log(circ(0.5))
+console.log(circ(34))
