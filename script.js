@@ -7,3 +7,12 @@
  * a way to get around the above statement is to do e.g "tsc nameOfTypeScriptFile.ts --w"this commands watches and run your code each time you save
  *
  *  */
+var age = 23;
+var myName = "Omotosho Joseph";
+var isTall = false;
+//try changing age or any other variable to another type other than what you assigned, e.g a string
+// age = "ma"
+var circ = function (diameter) {
+    return diameter * Math.PI;
+};
+console.log(circ(0.5));

@@ -8,3 +8,17 @@
  * 
  *  */
 
+let age = 23
+let myName = "Omotosho Joseph"
+let isTall = false
+
+//try changing age or any other variable to another type other than what you assigned, e.g a string
+
+// age = "ma"
+
+
+let circ = (diameter: number) => {
+    return diameter * Math.PI
+}
+
+console.log(circ(0.5))
