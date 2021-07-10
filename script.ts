@@ -1,24 +1,28 @@
-/** You can type the same way in typescript file like you do in javascript but you cant run typescript in your browser until you compile typescript to 
- * javascript.
- * To compile all you need to do is type in your command "tsc nameOfTypeScriptFile.ts nameOfTypeScriptFile.js"  (no quotes)
- * do this compilation format only when the ts and js files have different names but if they have same name you can just run
- * "tsc nameOfTypeScriptFile.ts" (this command can also be used to create a ts file that doesnt exist)
- * EACH TIME YOU WRITE SOMETHING IN TYPESCRIPT YOU NEED TO COMPILE IT IN JAVASCRIPT ALWAYS
- * a way to get around the above statement is to do e.g "tsc nameOfTypeScriptFile.ts --w"this commands watches and run your code each time you save
- * 
- *  */
+//Arrays: when you initialize an array with a certain data type, you cant assign another type to such an array.
+//with what i have seen you could initially assign mixed data types though.
 
-let age = 23
-let myName = "Omotosho Joseph"
-let isTall = false
+let myNames = ["yemi","Joseph","Oluwabusuyi",3]
 
-//try changing age or any other variable to another type other than what you assigned, e.g a string
+myNames.push(3)
 
-// age = "ma"
+// console.log(myNames)
 
 
-let circ = (diameter: number) => {//declare parameter type by doing parameter:type 
-    return diameter * Math.PI
+
+//objects
+/**Just like variables if you assign a certain type to an object property you cant change that type..it's been strictly set
+ * you cant also reassign an object variable
+ * if you will resassign, the value being reassigned to the varaible must also be an object
+ * when you reassign, the object structure has to be same with the previously assigned object
+ * this means you cant also add in a new property coz you will affect the initial structure you started with
+ */
+
+let myProperties = {
+    myName:"Omotosho Joseph",
+    age:9,
+    isTall: false
 }
 
-console.log(circ(34))
+myProperties.myName = "yemi"
+
+console.log(myProperties)
