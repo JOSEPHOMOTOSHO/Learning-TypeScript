@@ -2,6 +2,9 @@
 Dyanamic(Any) Types basically tells typeScript that a data type declared to a variable can be changed anytime in the future of the code
 and if the variable has a particular data type declared, we can change it, without getting error
 
+it is adviced not to use "any" keyword so much as you end up making typescript look like javacript.
+
+use it sparingly and when you dont know the kind of data type a variable will hold at the end of the day
 
 */
 
