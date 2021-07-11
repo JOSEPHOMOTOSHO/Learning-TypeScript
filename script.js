@@ -1,16 +1,13 @@
-/** You can type the same way in typescript file like you do in javascript but you cant run typescript in your browser until you compile typescript to
- * javascript.
- * To compile all you need to do is type in your command "tsc nameOfTypeScriptFile.ts nameOfTypeScriptFile.js"  (no quotes)
- * do this compilation format only when the ts and js files have different names but if they have same name you can just run
- * "tsc nameOfTypeScriptFile.ts" (this command can also be used to create a ts file that doesnt exist)
- * EACH TIME YOU WRITE SOMETHING IN TYPESCRIPT YOU NEED TO COMPILE IT IN JAVASCRIPT ALWAYS
- * a way to get around the above statement is to do e.g "tsc nameOfTypeScriptFile.ts --w"this commands watches and run your code each time you save
- *
- *  */
-var name_ = "china";
-console.log(name_);
-var input = document.querySelectorAll("input");
-console.log(input);
-input.forEach(function (input) {
-    console.log(input);
-});
+/**Explicitly stating the types a variable should hold without assigning it a value */
+var age;
+var isTall;
+var myName;
+myName = "Joseph"; ///it allowed string hence no error
+//age = "kkk" //this will give an error coz the type assigned to age ought to be a number
+// explicitly defining the data type arrays will hold
+var listOfHobbies;
+listOfHobbies = ["yemi", "omotosho", "Joseph"]; //i wunt get errors since i am assigning strings to the array 
+// console.log(listOfHobbies)
+// explicitly defining more than one dataType for an array in typescript
+var listOfCourse; //this allows you use mixed dataTypes in an array in typescript
+listOfCourse = ["yemi", "omotosho", "Joseph", 9]; //wunt get an error coz i declared that i wanted this variable to hold an array of mixed dataType
