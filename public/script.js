@@ -1,8 +1,8 @@
 "use strict";
-console.log("yemi");
-console.log("omotosho");
-console.log("jazz");
-let foo = function () {
-    console.log("foo");
+/**Type alisases help us reduce the amount of type duplication when trying to declare types */
+const logDetails = (uid, item) => {
+    console.log(`${item} has a userId of ${uid}`);
 };
-console.log(foo());
+const greet = (user) => {
+    console.log(`Hello ${user.name} `);
+};
