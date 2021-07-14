@@ -19,3 +19,5 @@ console.log(input)
 input.forEach(input => {
     console.log(input)
 })
+
+

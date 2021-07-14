@@ -1,3 +1,4 @@
+"use strict";
 /** You can type the same way in typescript file like you do in javascript but you cant run typescript in your browser until you compile typescript to
  * javascript.
  * To compile all you need to do is type in your command "tsc nameOfTypeScriptFile.ts nameOfTypeScriptFile.js"  (no quotes)
