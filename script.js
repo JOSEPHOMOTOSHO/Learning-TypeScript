@@ -1,6 +1,6 @@
 /**Explicitly stating the types a variable should hold without assigning it a value */
 var age;
-var isTall;
+var isTaLL;
 var myName;
 myName = "Joseph"; ///it allowed string hence no error
 //age = "kkk" //this will give an error coz the type assigned to age ought to be a number
@@ -31,6 +31,41 @@ myBag = {
     content: 3,
     name: "ko"
 };
+/*
+when declaring types explicitly, you use colon (:)
 
+let listOfName: (string|number)[] //using union types to accept more than one type
 
+listOfName = ["io","yemi",78]
+---------------------------------------------------------------------------------------------------
+let listOfName: (string|number)[] = []//using union types to accept more than one type
 
+listOfName.push("io","yemi",78)
+console.log(listOfName)
+-------------------------------------------------------------------------------------------------------
+let listOfName: (string|number)[] = []//using union types to accept more than one type
+
+listOfName.push("io","yemi",78)
+console.log(listOfName)
+
+---------------------------------------------------------------------------------------------------
+let me: {
+    myName:string,
+    age:number,
+    isTall:boolean
+}
+
+me = {
+    myName : "robert",
+    age:98,
+    isTall:false,
+}
+---------------------------------------------------------------------------------------------------
+let person : object
+
+person = {
+    name:"person",
+    age:90
+}
+---------------------------------------------------------------------------------------------------
+*/
