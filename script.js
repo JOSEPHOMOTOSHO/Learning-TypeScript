@@ -12,7 +12,12 @@ var myName = "Omotosho Joseph";
 var isTall = false;
 //try changing age or any other variable to another type other than what you assigned, e.g a string
 // age = "ma"
+//myName = "police"
+// let circ = (diameter: number) => {//declare parameter type by doing parameter:type 
+//     return diameter * Math.PI
+// }
+// console.log(circ(34))
 var circ = function (diameter) {
     return diameter * Math.PI;
 };
-console.log(circ(0.5));
+console.log(circ(4));
