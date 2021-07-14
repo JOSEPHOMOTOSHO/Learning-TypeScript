@@ -1,6 +1,6 @@
 /**Explicitly stating the types a variable should hold without assigning it a value */
-let age: number
-let isTall: boolean
+let age:number
+let isTaLL:boolean
 let myName:string
 
 myName = "Joseph" ///it allowed string hence no error
@@ -10,7 +10,7 @@ myName = "Joseph" ///it allowed string hence no error
 
 // explicitly defining the data type arrays will hold
 
-let listOfHobbies: (string)[]
+let listOfHobbies: string[]
 
 listOfHobbies = ["yemi","omotosho","Joseph"] //i wunt get errors since i am assigning strings to the array 
 
@@ -21,6 +21,12 @@ listOfHobbies = ["yemi","omotosho","Joseph"] //i wunt get errors since i am assi
 let listOfCourse: (string|number)[] //This is called Union Type where you can use either one type or the other.this allows you use mixed dataTypes in an array in typescript
 
 listOfCourse = ["yemi","omotosho","Joseph",9] //wunt get an error coz i declared that i wanted this variable to hold an array of mixed dataType
+
+
+
+
+
+
 
 
 /**to initialize your declared string array with an empty array */
@@ -65,3 +71,46 @@ myBag = {
     content: 3,
     name:"ko"
 }
+
+
+
+/*
+when declaring types explicitly, you use colon (:)
+
+let listOfName: (string|number)[] //using union types to accept more than one type
+
+listOfName = ["io","yemi",78]
+---------------------------------------------------------------------------------------------------
+let listOfName: (string|number)[] = []//using union types to accept more than one type
+
+listOfName.push("io","yemi",78)
+console.log(listOfName)
+-------------------------------------------------------------------------------------------------------
+let listOfName: (string|number)[] = []//using union types to accept more than one type
+
+listOfName.push("io","yemi",78)
+console.log(listOfName)
+
+---------------------------------------------------------------------------------------------------
+let me: {
+    myName:string,
+    age:number,
+    isTall:boolean
+}
+
+me = {
+    myName : "robert",
+    age:98,
+    isTall:false,
+}
+---------------------------------------------------------------------------------------------------
+let person : object
+
+person = {
+    name:"person",
+    age:90
+}
+---------------------------------------------------------------------------------------------------
+*/
+
+
