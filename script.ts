@@ -16,9 +16,16 @@ let isTall = false
 
 // age = "ma"
 
+//myName = "police"
 
-let circ = (diameter: number) => {//declare parameter type by doing parameter:type 
-    return diameter * Math.PI
+// let circ = (diameter: number) => {//declare parameter type by doing parameter:type 
+//     return diameter * Math.PI
+// }
+
+// console.log(circ(34))
+
+const circ = (diameter:number):number=> {
+        return diameter * Math.PI
 }
 
-console.log(circ(34))
+console.log(circ(4))
