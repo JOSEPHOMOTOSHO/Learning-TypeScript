@@ -51,3 +51,5 @@ let result = modulus(10,7) //the type result will have will be number. you cant 
 
 
 //in typescript "void" means lack of return value while "undefined" means lack of assignment to a variable
+
+
